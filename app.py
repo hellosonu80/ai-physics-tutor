@@ -11,7 +11,7 @@ if st.button("Get Answer"):
         st.write("Please type a question.")
     else:
         response = client.responses.create(
-            model="gpt-5-mini",
+            model="gpt-5-nano",
           input="""
 You are an expert JEE/NEET Physics teacher.
 Explain step by step in simple English.
